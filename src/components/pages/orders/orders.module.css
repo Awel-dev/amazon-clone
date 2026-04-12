@@ -1,0 +1,34 @@
+.container {
+    height: auto !important;
+    background-color: #efeeee;
+    padding: 30px;
+}
+.orders_container {
+    background-color: white;
+    padding: 20px;
+}
+.orders_container h2 {
+    border-bottom: 1px solid var(--primary-shade);
+    padding-bottom: 20px;
+}
+.orders_container p {
+    padding: 12px;
+    color: rgb(104, 103, 103);
+}
+.orders_container hr {
+    border: none;
+    border-top: 1px solid var(--primary-shade);
+    margin: 20px 0;
+}
+.orders_container img {
+    width: 250px !important;
+}
+.orders_container {
+    height: auto !important;
+}
+.orders items {
+    height: 100px !important;
+}
+.product_card {
+    height: 100px !important;
+}

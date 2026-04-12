@@ -1,0 +1,64 @@
+.paymentHeader {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(234, 237, 237);
+}
+.paymentSection {  
+    padding: 10px;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.flex h3{
+    min-width: 300px;
+}
+.flex img{
+    width: 150px !important;
+}
+.flex div{
+   height: auto !important;
+}
+@media (max-width: 1000px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .flex h3 {
+        min-width: unset;
+    }
+}
+
+
+.cardForm{
+    max-width: 350px;
+    width: 100%;
+}
+ .price > div{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+font-size: 16px;}
+
+.payBtn{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color:var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.payBtn:hover{
+    background-color: var(--primary-shade);
+}
+.processing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
