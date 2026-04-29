@@ -1,9 +1,33 @@
-*{   
-    padding: 0;
+*, *::before, *::after {
+    box-sizing: border-box;
     margin: 0;
-    font-family: sans-serif;
+    padding: 0;
 }
-:root{
-    --primary-color:#febd69;
-    --primary-shade:#d49644;
+
+html, body, #root {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+    color: #111;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #febd69;
+    --primary-shade: #d49644;
+    --background: #f3f3f3;
+    --surface: #ffffff;
+    --surface-strong: #1a1a1a;
 }
